@@ -12,18 +12,18 @@ namespace IdentityServer4.Core.Resources
             return typeof(Events).GetField(name)?.GetValue(null)?.ToString();
         }
 
-        public const string ClientPermissionsRevoked = "Client Permissions Revoked";
-        public const string CspReport = "Content Security Policy(CSP) Report";
-        public const string ExternalLoginError = "External Login Error";
-        public const string ExternalLoginFailure = "External Login Failure";
-        public const string ExternalLoginSuccess = "External Login Success";
-        public const string LocalLoginFailure = "Local Login Failure";
-        public const string LocalLoginSuccess = "Local Login Success";
-        public const string LogoutEvent = "Logout Event";
-        public const string PartialLogin = "Partial Login";
-        public const string PartialLoginComplete = "Partial Login Complete";
-        public const string PreLoginFailure = "Pre-Login Failure";
-        public const string PreLoginSuccess = "Pre-Login Success";
+        public const string ClientPermissionsRevoked = "Τα δικαιώματα του πελάτη έχουν ανακληθεί";
+        public const string CspReport = "Έκθεση Πολιτικής Ασφάλειας Περιεχομένου (CSP)";
+        public const string ExternalLoginError = "Σφάλμα εξωτερικής σύνδεσης";
+        public const string ExternalLoginFailure = "Αποτυχία εξωτερικής σύνδεσης";
+        public const string ExternalLoginSuccess = "Επιτυχία εξωτερικής σύνδεσης";
+        public const string LocalLoginFailure = "Αποτυχία εσωτερίκής σύνδεσης";
+        public const string LocalLoginSuccess = "Αποτυχία εσωτερικής σύνδεσης";
+        public const string LogoutEvent = "Αποτυχία ενέργιας";
+        public const string PartialLogin = "Μερικής σύνδεσης";
+        public const string PartialLoginComplete = "Η μερική είσοδος πέτυχε";
+        public const string PreLoginFailure = "Αποτυχία προ-εισόδου";
+        public const string PreLoginSuccess = "Επιτύχια προπ-εισόδου";
         public const string ResourceOwnerFlowLoginFailure = "Resource Owner Password Flow Login Failure";
         public const string ResourceOwnerFlowLoginSuccess = "Resource Owner Password Flow Login Success";
     }
