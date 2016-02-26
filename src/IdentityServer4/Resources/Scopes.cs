@@ -12,14 +12,14 @@ namespace IdentityServer4.Core.Resources
             return typeof(Scopes).GetField(name)?.GetValue(null)?.ToString();
         }
 
-        public const string address_DisplayName = "Your postal address";
-        public const string all_claims_DisplayName = "All user information";
-        public const string email_DisplayName = "Your email address";
-        public const string offline_access_DisplayName = "Offline access";
-        public const string openid_DisplayName = "Your user identifier";
-        public const string phone_DisplayName   = "Your phone number";
-        public const string profile_Description = "Your user profile information(first name, last name, etc.)";
-        public const string profile_DisplayName = "User profile";
-        public const string roles_DisplayName = "User roles";
+        public const string address_DisplayName = "Η διεύθυνση";
+        public const string all_claims_DisplayName = "Όλες οι πληροφορίες του πελάτη";
+        public const string email_DisplayName = "Το email";
+        public const string offline_access_DisplayName = "Εκτός σύνδεσης είδοσο";
+        public const string openid_DisplayName = "Το αναγνωριστικό του χρήστη";
+        public const string phone_DisplayName   = "Το τηλέφωνο";
+        public const string profile_Description = "Οι γενικές πληροφορίες του χρήστη (Όνομα, επώνυμο, πατρώνυμο)";
+        public const string profile_DisplayName = "Το προφιλ του χρήστη";
+        public const string roles_DisplayName = "Οι ρόλοι του χρήστη";
     }
 }
