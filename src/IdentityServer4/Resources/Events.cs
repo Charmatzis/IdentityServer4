@@ -23,7 +23,7 @@ namespace IdentityServer4.Core.Resources
         public const string PartialLogin = "Μερικής σύνδεσης";
         public const string PartialLoginComplete = "Η μερική είσοδος πέτυχε";
         public const string PreLoginFailure = "Αποτυχία προ-εισόδου";
-        public const string PreLoginSuccess = "Επιτύχια προπ-εισόδου";
+        public const string PreLoginSuccess = "Επιτύχια προ-εισόδου";
         public const string ResourceOwnerFlowLoginFailure = "Resource Owner Password Flow Login Failure";
         public const string ResourceOwnerFlowLoginSuccess = "Resource Owner Password Flow Login Success";
     }
